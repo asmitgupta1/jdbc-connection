@@ -21,6 +21,7 @@ public class DemoJDBC {
         System.out.println("connection Established");
 
             while(rs.next())
+
             {
                 System.out.println(rs.getInt("marks") + " "+ rs.getString("sname"));
             }
