@@ -11,6 +11,7 @@ public class DemoJDBC {
 
 //        Class.forName("org.postgresql.Driver");
         Connection con = DriverManager.getConnection(url,uname,pass);
+
         System.out.println("connection Established");
     }
 }
